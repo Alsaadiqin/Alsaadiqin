@@ -15,10 +15,10 @@ body{
   }
 
   h1{
-    font-size: 3em;
+    font-size: 2em;
     color: white;
     margin: 0 auto;
-  font-family: 'Aref Ruqaa', serif;
+    font-family: 'Aref Ruqaa', serif;
 
 
 
@@ -31,7 +31,11 @@ body{
   .social{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    max-width: 300px;
+    max-width: 280px;
     margin: 50px auto;
-    text-align: center;
+  }
+
+  .c_item{
+    text-decoration: none;
+
   }

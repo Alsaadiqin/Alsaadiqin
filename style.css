@@ -1,20 +1,37 @@
 
 body{
     background: #002a4e;
+    text-align: center;
+    margin: 0;
+    padding: 0;
   }
-  .container{
-    max-width: 400px;
+  .contaner{
+    text-align: center;
+  
   }
-  input[type=text],
-  input[type=text]:focus{
-    color: #fff;
-    border: none;
-    background: rgba(0,0,0,0.2);
-    max-width: 400px;
+  .head{
+    max-width: 200px;
+    margin: 20px auto;
   }
-  .todos li{
-    background: #423a6f;
+
+  h1{
+    font-size: 3em;
+    color: white;
+    margin: 0 auto;
+  font-family: 'Aref Ruqaa', serif;
+
+
+
   }
-  .delete{
-    cursor: pointer;
+
+  h3{
+    color: #f7a600;
+  }
+
+  .social{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 300px;
+    margin: 50px auto;
+    text-align: center;
   }

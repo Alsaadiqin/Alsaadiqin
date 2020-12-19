@@ -17,6 +17,12 @@ body{
     /* max-width: 300px; */
   }
 
+  .logo_img img{
+  max-width: 10em;
+  margin: 25px auto;
+
+  }
+
   h2{
     font-size: 1.5em;
     color: white;

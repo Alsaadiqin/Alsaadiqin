@@ -13,7 +13,6 @@ body{
   }
 
   .logo_img{
-    display: grid;
     grid-column: 4/5;
   }
 
@@ -31,17 +30,16 @@ body{
     color: #f7a600;
   }
 
-  .social{
+  li{
     /* background-color: rgb(77, 16, 16); */
     border-radius: 2em;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-column: 3/6;
-    align-items: center; 
+    display: grid;
+    
   }
 
-  .c_item{
-    text-decoration: none;
-    max-width: 100px;
-
-  }
+li ul{
+  max-width: 100px;
+  align-items: center;
+}

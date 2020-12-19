@@ -5,20 +5,25 @@ body{
     margin: 0;
     padding: 0;
   }
+
+   dl, ol, ul{
+    margin: 0;
+    padding: 0;
+  }
   .container{
     display: grid;
-    grid-template-rows: repeat(6, minmax(50px, auto));
+    grid-template-rows: repeat(4, minmax(50px, auto));
     grid-template-columns: repeat(5, 1fr);
+    
 
   }
 
   .logo_img{
     grid-column: 3/4;
-    /* max-width: 300px; */
+    width: 150px;
   }
 
   .logo_img img{
-  max-width: 10em;
   margin: 25px auto;
 
   }
@@ -27,7 +32,7 @@ body{
     font-size: 1.5em;
     color: white;
     font-family: 'Aref Ruqaa', serif;
-    grid-row: 2/3;
+    grid-row: 4/5;
     grid-column: 2/5;
     margin: 25px auto;
 
@@ -38,16 +43,19 @@ body{
   }
 
   li{
-    /* background-color: rgb(77, 16, 16); */
     border-radius: 2em;
     grid-template-columns: repeat(4, 1fr) ;
-    grid-column: 3/4;
-    display: grid;
-    width: 300px;
+    justify-items: center;
+    grid-column: 2/5;
+    list-style-type: none;
+
+  }
+ ul{
+  display: inline-flex ;
+  margin: 20px 10px;
+
   }
 
-li ul{
-  /* max-width: 100px; */
-  /* align-items: center; */
-  max-width: 100px;
+.social img{
+  width: 6vh;  
 }

@@ -27,7 +27,6 @@ body{
 
   .logo_img{
     grid-column: 3/4;
-    display: grid;
     width: 150px;
   }
 
